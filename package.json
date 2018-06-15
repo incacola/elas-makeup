@@ -1,0 +1,19 @@
+{
+  "name": "elastic-makeup",
+  "version": "0.0.1",
+  "description": "This is the repo for the Elastic Search Filler for Makeup Products",
+  "main": "data.js",
+  "scripts": {
+    "start": "node data.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/incacola/elas-makeup.git"
+  },
+  "dependencies": {
+    "elasticsearch": "15.0.0"
+  }
+}
