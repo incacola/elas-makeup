@@ -1,19 +1,16 @@
 {
   "name": "elastic-makeup",
-  "version": "0.0.1",
-  "description": "This is the repo for the Elastic Search Filler for Makeup Products",
-  "main": "data.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node data.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/incacola/elas-makeup.git"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-    "elasticsearch": "15.0.0"
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
   }
 }

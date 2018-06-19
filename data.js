@@ -4,7 +4,7 @@ const cities = require('./makeup.json')
 const client = new elasticsearch.Client({
   hosts: ['http://localhost:9200']
 });
-
+/* 
 client.ping({
   requestTimeout: 300000,
 }, (error) => {
@@ -14,7 +14,7 @@ client.ping({
     console.log(' Elasticsearch is Working!')
   }
 })
-
+ */
 client.indices.create({
   index: 'elas-makeup'
 }, (error, response, status) => {
